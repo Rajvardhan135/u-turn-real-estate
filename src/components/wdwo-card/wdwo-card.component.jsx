@@ -1,5 +1,6 @@
 import './wdwo-card.styles.scss'
 import { useState } from 'react'
+import { Fragment } from 'react'
 
 const WdwoCard = ({data}) => {
     const {title, image, content, id} = data
@@ -11,7 +12,7 @@ const WdwoCard = ({data}) => {
                     <h2>{title}</h2>
                     <div className='wdwo-card-content-box'>
                         <div className='wdwo-empty-div'/>
-                        <p className='medium-text'>{content}</p>
+                        <p className='medium-text'>{content.split('\n').map((line, index) => <Fragment key={index}>{line}<br /></Fragment>)}</p>
                     </div>
                 </div>
             </div>
