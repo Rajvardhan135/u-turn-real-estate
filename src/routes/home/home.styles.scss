@@ -1,0 +1,26 @@
+@import "../../include-media/include-media.scss";
+
+.home-page-container {
+    .hero-section-container{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: 470px;
+        align-items: center;
+        .hero-img {
+            height: 100%;
+            z-index: 1;
+            width: 90%;
+        }
+        .hero-yellow-box {
+            background-color: #C59B1D;
+            height: 227px;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        }
+        .hero-text {
+            z-index: 1;
+        }
+    }
+}

@@ -1,0 +1,181 @@
+@import "./include-media/include-media.scss";
+
+$primary-color: #C59B1D;
+$secondary-color: #DDDCD7;
+
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #C59B1D;
+}
+
+h1 {
+  color: #997408;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+  @include media('<xl-desktop'){
+    font-size: 95px;
+  }
+  @include media('<desktop') {
+    font-size: 60px;
+  }
+  @include media('<tablet') {
+    font-size: 48px;
+  }
+  @include media('<phone') {
+    font-size: 32px;
+  }
+}
+
+h2 {
+  color: #997408;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  @include media('<xl-desktop'){
+    font-size: 48px;
+  }
+  @include media('<desktop') {
+    font-size: 36px;
+  }
+  @include media('<tablet') {
+    font-size: 24px;
+  }
+  @include media('<phone') {
+    font-size: 12px;
+  }
+}
+
+h3 {
+  color: #DDDCD7;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  @include media('<xl-desktop'){
+    font-size: 48px;
+  }
+  @include media('<desktop') {
+    font-size: 36px;
+  }
+  @include media('<tablet') {
+    font-size: 24px;
+  }
+  @include media('<phone') {
+    font-size: 16px;
+  }
+}
+
+p {
+  color: #DDDCD7;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: justify;
+  @include media('<xl-desktop'){
+    font-size: 20px;
+  }
+  @include media('<desktop') {
+    font-size: 18px;
+  }
+  @include media('<tablet') {
+    font-size: 16px;
+  }
+  @include media('<phone') {
+    font-size: 12px;
+  }
+}
+
+.none {
+  display: none;
+}
+
+.primary-color-text {
+  color: $primary-color
+}
+.secondary-color-text {
+  color: $secondary-color
+}
+.grey-color-text {
+  color: #696969;
+}
+
+.normal-text {
+  color: #DDDCD7;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+  @include media('<xl-desktop'){
+    font-size: 20px;
+  }
+  @include media('<desktop') {
+    font-size: 18px;
+  }
+  @include media('<tablet') {
+    font-size: 16px;
+  }
+  @include media('<phone') {
+    font-size: 12px;
+  }
+}
+
+.big-text {
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 100%;
+  @include media('<xl-desktop'){
+    font-size: 36px;
+  }
+  @include media('<desktop') {
+    font-size: 28px;
+  }
+  @include media('<tablet') {
+    font-size: 18px;
+  }
+  @include media('<phone') {
+    font-size: 16px;
+  }
+}
+
+.medium-text {
+  font-size: 32px;
+  font-weight: 400;
+  
+  @include media('<xl-desktop'){
+    font-size: 24px;
+  }
+  @include media('<desktop') {
+    font-size: 18px;
+  }
+  @include media('<tablet') {
+    font-size: 16px;
+  }
+  @include media('<phone') {
+    font-size: 14px;
+  }
+}
+
+.normal-text {
+
+}

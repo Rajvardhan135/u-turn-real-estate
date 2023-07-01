@@ -1,13 +1,148 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #C59B1D;
+}
+
+h1 {
+  color: #997408;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: center;
+}
+@media (max-width: 1919px) {
+  h1 {
+    font-size: 95px;
+  }
+}
+@media (max-width: 1023px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 767px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 319px) {
+  h1 {
+    font-size: 32px;
+  }
+}
+
+h2 {
+  color: #997408;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+@media (max-width: 1919px) {
+  h2 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 1023px) {
+  h2 {
+    font-size: 52px;
+  }
+}
+@media (max-width: 767px) {
+  h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 319px) {
+  h2 {
+    font-size: 32px;
+  }
+}
+
+h3 {
+  color: #DDDCD7;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
+@media (max-width: 1919px) {
+  h3 {
+    font-size: 54px;
+  }
+}
+@media (max-width: 1023px) {
+  h3 {
+    font-size: 42px;
+  }
+}
+@media (max-width: 767px) {
+  h3 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 319px) {
+  h3 {
+    font-size: 24px;
+  }
+}
+
+p {
+  color: #DDDCD7;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: normal;
+}
+@media (max-width: 1919px) {
+  p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1023px) {
+  p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 767px) {
+  p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 319px) {
+  p {
+    font-size: 12px;
+  }
+}
+
+.none {
+  display: none;
+}
+
+.primary-color-text {
+  color: #C59B1D;
+}
+
+.secondary-color-text {
+  color: #DDDCD7;
+}
+
+.grey-color-text {
+  color: #696969;
+}/*# sourceMappingURL=index.css.map */

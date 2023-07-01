@@ -1,0 +1,31 @@
+@import "../../include-media/include-media.scss";
+
+.footer{
+    background-color: #C59B1D;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    @include media('>tablet') {
+        flex-direction: row;
+        margin-top: 130px;
+    }
+    .footer-image-container {
+        max-width: 196px;
+        height: 264px;
+        padding: 10px;
+        @include media('>tablet') {
+            position: absolute;
+            bottom: 0;
+            padding-bottom: 0px;
+            margin-right: 300px;
+        }
+
+        .footer-image {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

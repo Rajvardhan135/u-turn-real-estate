@@ -1,0 +1,80 @@
+@import "../../include-media/include-media.scss";
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20px;
+    padding: 30px 10px;
+    @include media('>tablet') {
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .logo-container {
+        width: 75px;
+        height: 75px;
+
+        .logo {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        width: 33px;
+        height: 27px;
+        color: #C59B1D;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+        @include media('>tablet') {
+            display: none;
+        }
+
+    }
+    
+    .nav-links-container {
+        display: none;
+        color: #C59B1D;
+font-size: 24.651px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+        @include media('>tablet') {
+            display: flex; 
+            
+        }
+    }
+
+    .nav-link {
+        @include media('>tablet') {
+            margin: 0 15px; 
+        }
+    }
+
+    &.menu-navigation {
+        flex-direction: column;
+    
+        .nav-links-container {
+            display: flex;
+            flex-direction: column;
+            margin: 10px;
+            .nav-link {
+                text-decoration: none;
+                margin: 15px 0;
+                display: inline;
+                text-align: center;
+                font-size: 24px;
+            }
+        }
+    }
+    
+    .active {
+        color: white;
+        background-color: #C59B1D;
+        border-radius: 30px;
+        padding: 0 10px;
+    }
+}

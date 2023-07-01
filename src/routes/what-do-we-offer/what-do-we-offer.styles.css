@@ -1,0 +1,31 @@
+.what-we-offer-container .offer-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  margin: 100px 0;
+}
+.what-we-offer-container .offer-container img {
+  width: 532px;
+  height: 700px;
+  position: relative;
+  left: 180px;
+}
+.what-we-offer-container .offer-container .offer-content {
+  text-align: center;
+}
+.what-we-offer-container .offer-container .offer-content-info {
+  background-color: #C59B1D;
+  padding: 30px 0 30px 180px;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+.what-we-offer-container .offer-text {
+  color: #DDDCD7;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+}
+.what-we-offer-container .empty-div {
+  width: 200px;
+}/*# sourceMappingURL=what-do-we-offer.styles.css.map */

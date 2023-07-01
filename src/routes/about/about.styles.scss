@@ -1,0 +1,43 @@
+@import "../../include-media/include-media.scss";
+
+.about-us {
+    .about-intro-section {
+        margin: 100px 0;
+        background-color: #C59B1D;
+        color: white;
+        text-align: center;
+        padding: 42px;
+        @include media('<tablet') {
+            margin: 60px 0;
+            padding: 34px;
+        }
+    }
+    .about-us-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0 71px;
+        @include media('<tablet') {
+            padding: 0 40px;
+        }
+        .about-us-info-logo {
+            width: 281px;
+            height: 262px;
+            background-color: #C59B1D;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            @include media('<tablet') {
+                padding: 0 40px;
+                width: 241px;
+                height: 212px;
+            }
+            @include media('<phone') {
+                padding: 0 40px;
+                width: 180px;
+                height: 180px;
+            }
+        }
+    }
+}
